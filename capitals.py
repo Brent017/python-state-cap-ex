@@ -1,4 +1,6 @@
 import random
+import os
+import sys
 # an array of state dictionaries
 states = [
 {
@@ -215,8 +217,23 @@ while done:
         print('Sorry that wasnt y or n.  Try again.')
 
 
+# print("Welcome to the capitals game.  Each time you are shown a state you must guess the capital.  Punctuation Counts!")
+# randomList = random.sample(states, len(states))
+# wrong = 0
+# correct = 0
 
+# for state in randomList:
+#     guess = input(f"what is the capital of {state['name']}: ")
+#     if guess == state['capital']:
+#         correct += 1
+#     else: 
+#         wrong += 1
 
+# print(f"Your final score was {correct} correct and {wrong} incorrect")
+# restart = input(f"Would you like to play again? (y/n)")
+# if restart == 'y':
+#     python = sys.executable
+#     os.execl(python, python, * sys.argv)
 
 
 
